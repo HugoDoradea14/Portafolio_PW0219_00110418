@@ -1,0 +1,19 @@
+@import "_variable";
+@import "mixins";
+
+.contender{
+    width: 100%;
+    height: 100vh;
+    border: $border-style;
+    background-color: $primary-color;
+    color: $text-color;
+    @include center-div();
+p{
+@include std-spacing(14);
+}
+
+&:hover{
+
+    background-color: #43a047;
+}
+}
